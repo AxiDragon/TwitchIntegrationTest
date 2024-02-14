@@ -16,6 +16,9 @@ MonoBehaviour:
   isDebugMode: 1
   clientId: z7fgvqoe2hqvyqfruxhq80lbq7i6yi
   commandPrefix: '!'
-  redirectUri: http://localhost/
+  redirectUri: http://localhost:8080/
   commandsMode: 0
-  commandList: []
+  commandList:
+  - name: move_object
+    enabled: 1
+    cooldown: 0
